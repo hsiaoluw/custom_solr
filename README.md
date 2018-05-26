@@ -3,9 +3,9 @@ This project cutomizes Solr for information retrieval on web documents.
 
 The projects includes three other functions:
 * Include pagerank for web documents.
-* Search the snippet in the document.
-* Allow autocompletion which returns up to five most posible completions, and allow spell checking which reuturns the most possible correct term to the user.
+* Search the snippets in the documents.
 ![Search with rank results](displayimage/search_results.png)
+* Allow autocompletion which returns up to five most posible completions, and allow spell checking which reuturns the most possible correct term to the user.
 ![Results not found](displayimage/notfound.png)
 ![auto completion](displayimage/autocomplete.png)
 
