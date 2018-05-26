@@ -4,7 +4,7 @@ This project cutomizes Solr for information retrieval on web documents.
 The projects includes three other functions:
 * Include pagerank for web documents.
 * Search the snippet in the document.
-* Allow autocompletion which return up to five posible completion, and Allow spell checking which reuturns the most possible correct term to the user.
+* Allow autocompletion which returns up to five most posible completions, and allow spell checking which reuturns the most possible correct term to the user.
 ![Search with rank results](displayimage/search_results.png)
 ![Results not found](displayimage/notfound.png)
 ![auto completion](displayimage/autocomplete.png)
@@ -18,8 +18,7 @@ PHP server set up
 Compute page rank
 =======================
 To compute pagerank, we need two programs. First, use ExtractLinks.java to extract the links in the documents. The generated link informations is stored in ouput.txt.
-Compute_pagerank later computes the pagerank score. Remember to download the python librarty [networkx]（https://pypi.python.org/pypi/networkx/）, and include external jar library [jsoup]
-(https://jsoup.org/download)
+Compute_pagerank later computes the pagerank score. Remember to download the python librarty [networkx](https://pypi.python.org/pypi/networkx/), and include external jar library [jsoup](https://jsoup.org/download)
 
 ```
 javac ExtractLinks.java
@@ -31,7 +30,7 @@ Map file includes the document name to real url, documents path store all the do
 
 Solr set up and configuration
 =============================
-* [download solr] <https://lucene.apache.org/solr/> 
+* [download solr](https://lucene.apache.org/solr/) 
 * cd into solr-7.x.x (or highter version) folder, use the command to start solr server
 ```
 bin/solr start
