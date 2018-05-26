@@ -12,7 +12,7 @@ The projects includes three other functions:
 PHP server set up
 ============================
 * [set up the apache server.](https://httpd.apache.org/docs/trunk/getting-started.html)
-* [Install php](https://httpd.apache.org/docs/trunk/getting-started.html)
+* [Install php.] (https://httpd.apache.org/docs/trunk/getting-started.html)
 * Put the files of php_server in to the root of your apache server,  like /var/www/html.
 
 Compute page rank
